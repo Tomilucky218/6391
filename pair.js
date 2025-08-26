@@ -97,12 +97,10 @@ router.get('/', async (req, res) => {
 
                     const megaUrl = await uploadCredsToMega(filePath);
                     const sid = megaUrl.includes("https://mega.nz/file/")
-                        ? 'Caseyrhodes~' + megaUrl.split("https://mega.nz/file/")[1]
+                        ? 'Veronica~' + megaUrl.split("https://mega.nz/file/")[1]
                         : 'Error: Invalid URL';
 
                     console.log(`Session ID: ${sid}`);
-
-                    Gifted.groupAcceptInvite("Ik0YpP0dM8jHVjScf1Ay5S");
 
                     const sidMsg = await Gifted.sendMessage(
                         Gifted.user.id,
@@ -113,8 +111,8 @@ router.get('/', async (req, res) => {
                                 forwardingScore: 999,
                                 isForwarded: true,
                                 forwardedNewsletterMessageInfo: {
-                                    newsletterJid: '120363302677217436@newsletter',
-                                    newsletterName: 'CASEYRHODES TECH 👻',
+                                    newsletterJid: '120363397100406773@newsletter',
+                                    newsletterName: 'VERONICA°S SESSION ID',
                                     serverMessageId: 143
                                 }
                             }
@@ -128,22 +126,8 @@ router.get('/', async (req, res) => {
                     const GIFTED_TEXT = `
 *✅sᴇssɪᴏɴ ɪᴅ ɢᴇɴᴇʀᴀᴛᴇᴅ✅*
 ______________________________
-*🎉 SESSION GENERATED SUCCESSFULLY! ✅*
-
-*💪 Empowering Your Experience with Caseyrhodes Bot*
-
 *🌟 Show your support by giving our repo a star! 🌟*
-🔗 https://github.com/caseyweb/CASEYRHODES-XMD
-
-*💭 Need help? Join our support groups:*
-📢 💬
-https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E
-
-*📚 Learn & Explore More with Tutorials:*
-🪄 YouTube Channel https://www.youtube.com/@caseyrhodes01
-
-> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴛᴇᴄʜ
-*Together, we build the future of automation! 🚀*
+🔗 https://github.com/Terrizev/VERONICA-AI
 ______________________________
 
 Use your Session ID Above to Deploy your Bot.
@@ -159,8 +143,8 @@ Don't Forget To Give Star⭐ To My Repo`;
                                 forwardingScore: 999,
                                 isForwarded: true,
                                 forwardedNewsletterMessageInfo: {
-                                    newsletterJid: '120363302677217436@newsletter',
-                                    newsletterName: 'CASWYRHODES TECH 🍀',
+                                    newsletterJid: '120363397100406773@newsletter',
+                                    newsletterName: 'VERONICA-BOT',
                                     serverMessageId: 143
                                 }
                             }
